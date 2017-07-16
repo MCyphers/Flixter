@@ -1,4 +1,4 @@
-class Instructor::SectionController < ApplicationController
+class Instructor::SectionsController < ApplicationController
 	
 	def new
 		@course = Course.find(params[:course_id]) 
