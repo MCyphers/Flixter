@@ -17,7 +17,8 @@
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand", href="#" >Flixter</a>
+          <a class="navbar-brand" >
+            <%= link_to 'Flixter', root_path %></a>
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -68,20 +69,20 @@
             <div class="col-12 col-sm-3">
               <b>About</b>
               <br />
-              <%= link_to 'Team', '#' %>
+              <%= link_to 'Team', team_path %>
               <br />
-              <%= link_to 'Careers', '#' %>
+              <%= link_to 'Careers', careers_path %>
               <br />
-              <%= link_to 'Privacy Policy', '#' %>
+              <%= link_to 'Privacy Policy', privacy_path %>
             </div>
             <div class="col-12 col-sm-3">
               <b>Contact</b>
               <br />
-              ken@thefirehoseproject.com
+              morganlcyphers@gmail.com
               <br />
-              One Kendall Square
+              125 E Township St. Ste 1 
               <br />
-              Cambridge MA, 02113
+              Fayetteville, AR 72703
             </div>
             <div class="col-12 col-sm-3 social">
               <b>Social</b>
@@ -93,7 +94,7 @@
               <%= link_to 'http://facebook.com/morgan.cyphers.3' do %>
                 <span class="fa fa-facebook-square fa-2x social-button"></span>
               <% end %>
-              <%= link_to 'http://twitter.com/MorganCyphers' do %>  
+              <%= link_to 'https://twitter.com/MorganCyphers' do %>  
                 <span class="fa fa-twitter-square fa-2x social-button"></span>
               <% end %>  
             </div>
